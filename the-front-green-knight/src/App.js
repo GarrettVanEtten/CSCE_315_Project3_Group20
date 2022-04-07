@@ -18,9 +18,6 @@ function App() {
         >
         </a>
       </header>
-      <Link to="/MoneyManager">
-          Money Manager
-      </Link>
     </div>
   );
 }
