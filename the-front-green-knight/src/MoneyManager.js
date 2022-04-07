@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import {Link} from 'react-router-dom';
 
-function App() {
+function MoneyManager() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="MoneyManager">
+      <header className="MoneyManager-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          GREEN NIGHT
+          MONEY MANAGER
         </p>
         <a
           className="App-link"
@@ -18,11 +17,8 @@ function App() {
         >
         </a>
       </header>
-      <Link to="/MoneyManager">
-          Money Manager
-      </Link>
     </div>
   );
 }
 
-export default App;
+export default MoneyManager;
